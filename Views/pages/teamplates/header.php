@@ -9,7 +9,9 @@
 <body>
 <nav class="navbar navbar-expand-lg ">
     <?php foreach($this->menuitens as $key => $value){
-     echo '<a href="'.INCLUDE_PATH.$value.'">'. $value. ',</a>';
+     echo '<a href="PaginaInicial">'. $value. ',</a>';
+     echo '<a href="Sobre'.$value.">'. $value. ',</a>';
+     echo '<a href="contato">'. $value. ',</a>';
     }?>
     </div>
   </div>
